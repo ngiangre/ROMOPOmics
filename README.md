@@ -1,6 +1,8 @@
 
 # ROMOPOmics
 
+[![DOI](https://zenodo.org/badge/332797042.svg)](https://zenodo.org/badge/latestdoi/332797042)
+
 ## Installation
 
 ``` r
