@@ -458,3 +458,6 @@ person_id,,,CUSTOM,variation
 sequencing_id,,,CUSTOM,variation
 variant_source_value,,,CUSTOM,variation
 variant_status_source_value,,,CUSTOM,variation
+gene_id,,,,gene
+gene_type_concept_id,,,,gene
+gene_source_value,,,,gene
