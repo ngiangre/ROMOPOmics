@@ -457,6 +457,7 @@ evs_cohort_definition_type,No,VARCHAR(50),The definition type of the evs cohort.
 person_id,No,VARCHAR(50),CUSTOM,variation
 sequencing_id,No,VARCHAR(50),CUSTOM,variation
 variant_id,No,VARCHAR(50),CUSTOM omop identifier,variation
+variant_size_source_value,NO,VARCHAR(50),CUSTOM size of the variant,variation
 variant_source_value,No,VARCHAR(50),CUSTOM the variant name in the source data,variation
 variant_status_source_value,No,VARCHAR(50),CUSTOM the type of variant e.g. structural variant,variation
 gene_id,No,VARCHAR(50),CUSTOM omop identifier,gene
