@@ -459,9 +459,14 @@ sequencing_id,No,VARCHAR(50),CUSTOM,variation
 variation_id,No,VARCHAR(50),CUSTOM omop identifier,variation
 variation_size_source_value,NO,VARCHAR(50),CUSTOM size of the variant,variation
 variation_source_value,No,VARCHAR(50),CUSTOM the variant name in the source data,variation
+variation_allele_frequency_source_value,No,VARCHAR(50),CUSOM the allele frequency value,variation
 variation_status_source_value,No,VARCHAR(50),CUSTOM the type of variant e.g. structural variant,variation
 gene_id,No,VARCHAR(50),CUSTOM omop identifier,gene
 gene_source_value,No,VARCHAR(50),CUSTOM gene name in source data,gene
 gene_chromosome_source_value,No,VARCHAR(50),CUSTOM chromosome for gene,gene
 gene_start_source_value,No,VARCHAR(50),CUSTOM base for start of gene,gene
 gene_end_source_value,No,VARCHAR(50),CUSTOM base for end for gene,gene
+tcr_sequencing_id,No,VARCHAR(50),CUSTOM the TCR sequence identifier,tcr_sequencing
+tcr_sequencing_vsegment_source_value,No,VARCHAR(50),CUSTOM the v gene segment that is expressed in the sample,tcr_sequencing
+tcr_sequencing_junction_source_value,No,VARCHAR(50),CUSTOM the unique CDR3 amino acid sequences,tcr_sequencing
+tcr_sequencing_clone_count_source_value,No,VARCHAR(50),CUSTOM the number of times each unique TCR gene is expressed in the sample,tcr_sequencing
