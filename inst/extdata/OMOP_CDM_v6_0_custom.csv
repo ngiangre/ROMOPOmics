@@ -470,3 +470,6 @@ tcr_sequencing_id,No,VARCHAR(50),CUSTOM the TCR sequence identifier,tcr_sequenci
 tcr_sequencing_vsegment_source_value,No,VARCHAR(50),CUSTOM the v gene segment that is expressed in the sample,tcr_sequencing
 tcr_sequencing_junction_source_value,No,VARCHAR(50),CUSTOM the unique CDR3 amino acid sequences,tcr_sequencing
 tcr_sequencing_clone_count_source_value,No,VARCHAR(50),CUSTOM the number of times each unique TCR gene is expressed in the sample,tcr_sequencing
+person_id,No,VARCHAR(50),CUSTOM name of patient with a PRS,prs
+disease_source_value,No,VARCHAR(50),CUSTOM disease of patient for which the PRS applies,prs
+prs_source_value,No,FLOAT,CUSTOM PRS number,prs
